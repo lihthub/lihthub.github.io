@@ -1,0 +1,65 @@
+.weixin_popup_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 11000;
+	position: fixed;
+	filter: alpha(opacity=60);
+	background-color: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.6;
+}
+
+.weixin_popup {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -170px;
+	margin-left: -140px;
+	padding: 10px;
+	width: 270px !important;
+	height: 310px !important;
+	background: #fff;
+	border: solid 1px #d8d8d8;
+	z-index: 11001;
+	font-size: 12px
+}
+
+.weixin_popup .weixin_popup_head {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 16px;
+	height: 16px;
+	position: relative;
+	color: #000
+}
+
+.weixin_popup .weixin_popup_head .weixin_popup_close {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #999;
+	text-decoration: none;
+	font-size: 16px
+}
+
+.weixin_popup .weixin_popup_head .weixin_popup_close:hover {
+	text-decoration: none
+}
+
+.weixin_popup .weixin_popup_main {
+	padding: 15px 10px;
+	height: 250px;
+	width: 250px
+}
+
+.weixin_popup .weixin_popup_foot {
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+	color: #666
+}

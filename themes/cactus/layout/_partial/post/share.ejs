@@ -1,0 +1,11 @@
+<ul>
+  <li><a class="icon" title="facebook" href="http://www.facebook.com/sharer.php?u=<%= page.permalink %>" target="_blank"><i class="fab fa-facebook <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="twitter" href="https://twitter.com/share?url=<%= page.permalink %>&text=<%= page.title %>" target="_blank"><i class="fab fa-twitter <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="linkedin" href="http://www.linkedin.com/shareArticle?url=<%= page.permalink %>&title=<%= page.title %>" target="_blank"><i class="fab fa-linkedin <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="mail" href="mailto:?subject=<%= page.title %>&body=Check out this article: <%= page.permalink %>"><i class="fas fa-envelope <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="pocket" href="https://getpocket.com/save?url=<%= page.permalink %>&title=<%= page.title %>" target="_blank"><i class="fab fa-get-pocket <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="digg" href="http://digg.com/submit?url=<%= page.permalink %>&title=<%= page.title %>" target="_blank"><i class="fab fa-digg <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="tumblr" href="http://www.tumblr.com/share/link?url=<%= page.permalink %>&name=<%= page.title %>&description=<%= page.excerpt %>" target="_blank"><i class="fab fa-tumblr <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="weibo" href="http://service.weibo.com/share/share.php?url=<%= page.permalink %>&title=<%= page.title %>" target="_blank"><i class="fab fa-weibo <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon share_weixin" title="wechat" href="javascript:;" data-url="<%= page.permalink %>" target="_blank"><i class="fab fa-weixin <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+</ul>

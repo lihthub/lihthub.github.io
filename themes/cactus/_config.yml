@@ -116,7 +116,7 @@ open_graph:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus: 
-  enabled: false
+  enabled: true
   shortname: lideveloper
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.

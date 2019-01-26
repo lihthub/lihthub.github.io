@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Li Haitao</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lihthub.github.io/"/>
+  <updated>2019-01-26T12:00:54.380Z</updated>
+  <id>https://lihthub.github.io/</id>
+  
+  <author>
+    <name>Li Haitao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我家的猫</title>
+    <link href="https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/"/>
+    <id>https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/</id>
+    <published>2019-01-26T11:44:16.000Z</published>
+    <updated>2019-01-26T12:00:54.380Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;快过年了，马上就要回家了，我想起了我家的那只猫。&lt;/p&gt;
+&lt;p&gt;2018年年初的时候从北京辞职回到山西农村的家里开始复习备战我谋划已久的考研计划，中途因为眼睛做手术花费太大缺钱而不得不放弃考研，9月份的时候我离开家来到了南京。&lt;/p&gt;
+&lt;p&gt;考研复习这段时间陪伴我一起度过的
+      
+    
+    </summary>
+    
+    
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery 插件开发</title>
+    <link href="https://lihthub.github.io/2017/09/26/jquery-plugin-development/"/>
+    <id>https://lihthub.github.io/2017/09/26/jquery-plugin-development/</id>
+    <published>2017-09-25T16:27:34.000Z</published>
+    <updated>2018-11-23T13:10:10.050Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;本文转载自互联网&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;jQuery 插件的开发包括两种：一种是类级别的插件开发，即给 jQuery 添加新的全局函数，相当于给 jQuery 类本身添加方法。jQuery 的全局函数就是属于 jQuery 命名
+      
+    
+    </summary>
+    
+    
+      <category term="jQuery" scheme="https://lihthub.github.io/tags/jQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Hexo 搭建个人博客</title>
+    <link href="https://lihthub.github.io/2017/09/19/blogging-with-hexo/"/>
+    <id>https://lihthub.github.io/2017/09/19/blogging-with-hexo/</id>
+    <published>2017-09-19T10:48:03.000Z</published>
+    <updated>2018-11-23T13:10:10.047Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一直想开个博客写几篇技术文章，因为写博客不仅能让自己更深入地理解某项技术，而且可以总结归纳一些我学到的知识点分享给别人，但总是犹豫在什么地方写博客，因为现在有很多比如 CSDN、博客园、简书等博客平台，很难选择，也都不是我喜欢的类型。后来看到我关注的一些大牛都自行搭建了个人
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://lihthub.github.io/tags/Hexo/"/>
+    
+      <category term="Github Pages" scheme="https://lihthub.github.io/tags/Github-Pages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://lihthub.github.io/2017/09/08/hello-world/"/>
+    <id>https://lihthub.github.io/2017/09/08/hello-world/</id>
+    <published>2017-09-08T10:00:00.000Z</published>
+    <updated>2018-12-12T07:30:49.744Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

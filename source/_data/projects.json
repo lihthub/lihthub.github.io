@@ -2,7 +2,12 @@
     {
        "name":"Ager",
        "url":"https://github.com/hollisli/ager",
-       "desc":"一款根据公历（农历）生日计算周岁、虚岁、生肖和生活天数等的工具"
+       "desc":"年龄助手，一款根据公历（农历）生日计算周岁、虚岁、生肖和生活天数等的电脑桌面应用"
+    },
+    {
+      "name":"Resume",
+      "url":"https://lihthub.github.io/resume/",
+      "desc":"我的个人简历，一个简单的求职简历模版"
     },
     {
        "name":"Hexo",

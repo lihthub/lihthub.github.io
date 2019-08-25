@@ -19,7 +19,7 @@
 <meta property="og:image" content="https://lihthub.github.io/2017/09/19/blogging-with-hexo/lihthub.github.io.png">
 <meta property="og:image" content="https://lihthub.github.io/2017/09/19/blogging-with-hexo/change-default-branch.png">
 <meta property="og:image" content="https://lihthub.github.io/2017/09/19/blogging-with-hexo/switch-default-branch.png">
-<meta property="og:updated_time" content="2018-11-23T13:10:10.047Z">
+<meta property="og:updated_time" content="2019-08-18T08:36:36.812Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Hexo 搭建个人博客">
 <meta name="twitter:description" content="一直想开个博客写几篇技术文章，因为写博客不仅能让自己更深入地理解某项技术，而且可以总结归纳一些我学到的知识点分享给别人，但总是犹豫在什么地方写博客，因为现在有很多比如 CSDN、博客园、简书等博客平台，很难选择，也都不是我喜欢的类型。后来看到我关注的一些大牛都自行搭建了个人博客，所以就选了这种形式。因为自建博客权限比较高，可控性也高，博客的样式、布局都可以由自己来设定，最重要的是搭建过程包括发文章">
@@ -158,7 +158,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g nrm <span class="comment"># 安装 nrm</span></span><br><span class="line">$ nrm ls <span class="comment"># registry 列表</span></span><br><span class="line">$ nrm use taobao  <span class="comment"># 将 registry 切换为 taobao</span></span><br></pre></td></tr></table></figure>
 <h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>接着使用 npm 安装 Hexo：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-<p><em>说明：本文所有命令 Linux/Mac 在终端（terminal）输入，Windows 除后面的 SSH 那节在 Git Bash 输入外其余都在 CMD 输入。</em></p>
+<p><em>说明：本文所有命令 Linux/Mac 在终端（terminal）输入，Windows 在 CMD 输入。</em></p>
 <h2 id="创建-Hexo-项目"><a href="#创建-Hexo-项目" class="headerlink" title="创建 Hexo 项目"></a>创建 Hexo 项目</h2><p>安装好 Hexo 后，在本地新建个文件夹作为 Hexo 项目文件夹，名称随意，我的叫 <code>lihthub.github.io</code> ，执行下列命令，Hexo 会在指定文件夹 <code>lihthub.github.io</code> 中新建所需要的文件：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init lihthub.github.io <span class="comment"># 初始化 Hexo 项目</span></span><br><span class="line">$ <span class="built_in">cd</span> lihthub.github.io</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 <p>初始化后，会在文件夹 <code>lihthub.github.io</code> 里生成以下目录结构，这就是你的 Workspace：</p>
@@ -237,7 +237,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:lihthub/lihthub.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>接着在本地博客文件夹下依次执行下列命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ git init <span class="comment"># 初始化 Git 项目</span></span><br><span class="line">$ git checkout -b hexo <span class="comment"># 新建并切换到 hexo 分支</span></span><br><span class="line"><span class="comment"># 添加远程仓库 origin ，后面是你在 Github 上创建的 repository 的 url</span></span><br><span class="line">$ git remote add origin git@github.com:lihthub/lihthub.github.io.git</span><br><span class="line">$ git add . <span class="comment"># 将当前目录的所有文件加入暂存区</span></span><br><span class="line">$ git commit -m <span class="string">"提交说明"</span> <span class="comment"># 提交更新</span></span><br><span class="line">$ git push origin hexo <span class="comment"># 推送到远程仓库 origin 的 hexo 分支</span></span><br></pre></td></tr></table></figure>
-<p>需要注意的是本地博客文件夹根目录下的 <code>.gitignore</code> 是 Hexo 自带的文件，也要提交到仓库，里面列的是要被 Git 忽略的文件，这些文件不需要纳入 Git 的管理。这就意味着 Hexo 也希望我们将源文件提交到远程仓库来管理。</p>
+<p>需要注意的是本地博客文件夹根目录下的 <code>.gitignore</code> 是 Hexo 自带的文件，也要提交到仓库，里面列的是要被 Git 忽略的文件，这些文件不需要纳入 Git 的管理。</p>
 <p>这样就把本地博客项目提交到你的 Github 中 <code>lihthub.github.io</code> 仓库的 <code>hexo</code> 分支上了。然后将仓库的默认分支设置为 hexo，因为 hexo 分支需要手动管理。</p>
 <p>在 Github 中打开 <code>lihthub.github.io</code> 仓库的主页面，点击上面的 2 branches:</p>
 <p><img src="/2017/09/19/blogging-with-hexo/lihthub.github.io.png" alt="lihthub.github.io"></p>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lihthub.github.io/"/>
-  <updated>2019-08-04T14:34:42.104Z</updated>
+  <updated>2019-08-25T07:23:53.574Z</updated>
   <id>https://lihthub.github.io/</id>
   
   <author>
@@ -17,11 +17,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我家的猫</title>
+    <title>我的第一次技术分享会</title>
+    <link href="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/"/>
+    <id>https://lihthub.github.io/2019/08/15/my-first-technology-sharing/</id>
+    <published>2019-08-15T12:00:00.000Z</published>
+    <updated>2019-08-25T07:23:53.574Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天上午，我做了一次技术分享，是给全公司的所有Java开发人员讲解&lt;code&gt;Java8新特性&lt;/code&gt;。这对我来说很有意义，虽然之前在北京神州数码的时候也给同事们讲过一次自己写的jQuery活动日历的代码，但讲的并不成功，讲到一半就终止了，也没表达出自己的意思来。这次
+      
+    
+    </summary>
+    
+    
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="语言表达" scheme="https://lihthub.github.io/tags/%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>家乡的小学被拆掉了</title>
+    <link href="https://lihthub.github.io/2019/05/07/primary-school-in-my-hometown/"/>
+    <id>https://lihthub.github.io/2019/05/07/primary-school-in-my-hometown/</id>
+    <published>2019-05-07T12:00:00.000Z</published>
+    <updated>2019-08-25T07:11:23.853Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近几天，听家里人说，村里搞拆迁，学校院子里的那九孔窑洞被拆掉了。村里的小学搁置了好几年了，院子里虽说很久没人住了，现在突然拆掉了，自己还是有点不舍。&lt;/p&gt;
+&lt;p&gt;我的童年是在这里度过的，回想起自己曾经在这所学校的那段时光，感触良多。&lt;/p&gt;
+&lt;p&gt;这所小小的学校办了好多
+      
+    
+    </summary>
+    
+    
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我家的那只猫</title>
     <link href="https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/"/>
     <id>https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/</id>
     <published>2019-01-26T11:44:16.000Z</published>
-    <updated>2019-08-04T14:34:42.104Z</updated>
+    <updated>2019-08-24T17:24:24.255Z</updated>
     
     <summary type="html">
     
@@ -44,7 +90,7 @@
     <link href="https://lihthub.github.io/2017/09/26/jquery-plugin-development/"/>
     <id>https://lihthub.github.io/2017/09/26/jquery-plugin-development/</id>
     <published>2017-09-25T16:27:34.000Z</published>
-    <updated>2019-03-30T08:13:24.264Z</updated>
+    <updated>2019-08-24T08:22:25.671Z</updated>
     
     <summary type="html">
     
@@ -68,7 +114,7 @@
     <link href="https://lihthub.github.io/2017/09/19/blogging-with-hexo/"/>
     <id>https://lihthub.github.io/2017/09/19/blogging-with-hexo/</id>
     <published>2017-09-19T10:48:03.000Z</published>
-    <updated>2018-11-23T13:10:10.047Z</updated>
+    <updated>2019-08-18T08:36:36.812Z</updated>
     
     <summary type="html">
     

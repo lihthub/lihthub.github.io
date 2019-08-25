@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="今天上午，我做了一次技术分享，是给全公司的所有Java开发人员讲解Java8新特性。这对我来说很有意义，虽然之前在北京神州数码的时候也给同事们讲过一次自己写的jQuery活动日历的代码，但讲的并不成功，讲到一半就终止了，也没表达出自己的意思来。这次的Java8技术分享是我第一次真正意义的演讲，这也是我第一次当着这么多人的面讲话，表达的还算可以，符合我的预期。 这次技术分享本来是我提议让我们技术总监">
+<meta name="keywords" content="个人日记,语言表达">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的第一次技术分享会">
+<meta property="og:url" content="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/index.html">
+<meta property="og:site_name" content="李海涛">
+<meta property="og:description" content="今天上午，我做了一次技术分享，是给全公司的所有Java开发人员讲解Java8新特性。这对我来说很有意义，虽然之前在北京神州数码的时候也给同事们讲过一次自己写的jQuery活动日历的代码，但讲的并不成功，讲到一半就终止了，也没表达出自己的意思来。这次的Java8技术分享是我第一次真正意义的演讲，这也是我第一次当着这么多人的面讲话，表达的还算可以，符合我的预期。 这次技术分享本来是我提议让我们技术总监">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/oil-painting.jpg">
+<meta property="og:updated_time" content="2019-08-25T07:23:53.574Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我的第一次技术分享会">
+<meta name="twitter:description" content="今天上午，我做了一次技术分享，是给全公司的所有Java开发人员讲解Java8新特性。这对我来说很有意义，虽然之前在北京神州数码的时候也给同事们讲过一次自己写的jQuery活动日历的代码，但讲的并不成功，讲到一半就终止了，也没表达出自己的意思来。这次的Java8技术分享是我第一次真正意义的演讲，这也是我第一次当着这么多人的面讲话，表达的还算可以，符合我的预期。 这次技术分享本来是我提议让我们技术总监">
+<meta name="twitter:image" content="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/oil-painting.jpg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>我的第一次技术分享会</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="https://github.com/lihthub">Projects</a></li>
+         
+          <li><a href="/tags/">Tags</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2019/05/07/primary-school-in-my-hometown/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" title="facebook" href="http://www.facebook.com/sharer.php?u=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/" target="_blank"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="twitter" href="https://twitter.com/share?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&text=我的第一次技术分享会" target="_blank"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="linkedin" href="http://www.linkedin.com/shareArticle?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="mail" href="mailto:?subject=我的第一次技术分享会&body=Check out this article: https://lihthub.github.io/2019/08/15/my-first-technology-sharing/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="pocket" href="https://getpocket.com/save?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="digg" href="http://digg.com/submit?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="tumblr" href="http://www.tumblr.com/share/link?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&name=我的第一次技术分享会&description=" target="_blank"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="weibo" href="http://service.weibo.com/share/share.php?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-weibo " aria-hidden="true"></i></a></li>
+  <li><a class="icon share_weixin" title="wechat" href="javascript:;" data-url="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/" target="_blank"><i class="fab fa-weixin " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        我的第一次技术分享会
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">李海涛</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2019-08-15T12:00:00.000Z" itemprop="datePublished">2019-08-15</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/个人日记/">个人日记</a>, <a class="tag-link" href="/tags/语言表达/">语言表达</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>今天上午，我做了一次技术分享，是给全公司的所有Java开发人员讲解<code>Java8新特性</code>。这对我来说很有意义，虽然之前在北京神州数码的时候也给同事们讲过一次自己写的jQuery活动日历的代码，但讲的并不成功，讲到一半就终止了，也没表达出自己的意思来。这次的Java8技术分享是我第一次真正意义的演讲，这也是我第一次当着这么多人的面讲话，表达的还算可以，符合我的预期。</p>
+<p>这次技术分享本来是我提议让我们技术总监许总讲的，因为大家一直用Java7，对Java8的新特性还不太熟悉，所以我提议让许总给我们普及一下，结果他说给我个机会，让我来给大家讲。我当时既紧张又激动，紧张的是我怕我讲不好闹出笑话来，也怕自己讲不清楚，激动的是我觉得这是我锻炼自己的一次好机会，不仅能加深我对Java8新特性的理解，还能锻炼自己的勇气，提高自信心，对我的表达能力、总结能力的提升也有一定帮助。</p>
+<p>我自己从小就有性格缺陷，胆子小，不太喜欢跟人说话，表达能力欠佳，这极大地阻碍了我的发展，影响了我的前程。所以我现在对这种在公众面前发言和与人深入交谈的机会看的尤为重要，会尽量多参与公司或团队的会议讨论，多发表意见，在同事之间多交流沟通，多跟不同的优秀的人打交道，多参与社交活动，会自我鼓励，提高自信心，用乐观积极的心态迎接生活中遇到的每一个问题。</p>
+<p>所以，这次技术分享对我来说是一个特别大的机会，我特别精心地准备了一下，花了一周的时间，写了一份PPT，也找了一些Java代码的例子。果然，机会总是留给那些有准备的人，分享开始前自己还特别慌，心情特别复杂，但到真正演讲的时候其实并没有那么可怕，自己还比较从容淡定，就这样我用我自己的语言简单地给大家讲了一下Lambda表达式、Stream API等知识点。虽说讲的比较浅显，语言也平淡无奇，但总算比较顺利地讲完了，思维逻辑也没有特别混乱。这对我来说已经算是一个很好的开始了，因为开始了，才有第二步之后的每一步。</p>
+<p>接下来，我希望自己能在提高表达能力、总结能力方面多花功夫，多读书，多写作，因为读书是提高表达能力最有效的方法，而善于写作的人会越来越能表达。</p>
+<p><img src="/2019/08/15/my-first-technology-sharing/oil-painting.jpg" alt="oil-painting"></p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="https://github.com/lihthub">Projects</a></li>
+         
+          <li><a href="/tags/">Tags</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" title="facebook" href="http://www.facebook.com/sharer.php?u=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/" target="_blank"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="twitter" href="https://twitter.com/share?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&text=我的第一次技术分享会" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="linkedin" href="http://www.linkedin.com/shareArticle?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="mail" href="mailto:?subject=我的第一次技术分享会&body=Check out this article: https://lihthub.github.io/2019/08/15/my-first-technology-sharing/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="pocket" href="https://getpocket.com/save?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="digg" href="http://digg.com/submit?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="tumblr" href="http://www.tumblr.com/share/link?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&name=我的第一次技术分享会&description=" target="_blank"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" title="weibo" href="http://service.weibo.com/share/share.php?url=https://lihthub.github.io/2019/08/15/my-first-technology-sharing/&title=我的第一次技术分享会" target="_blank"><i class="fab fa-weibo fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon share_weixin" title="wechat" href="javascript:;" data-url="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/" target="_blank"><i class="fab fa-weixin fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 李海涛
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="https://github.com/lihthub">Projects</a></li>
+         
+          <li><a href="/tags/">Tags</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+<link rel="stylesheet" href="/lib/weixin-share/weixin-popup.css">
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/lib/weixin-share/jquery.qrcode.min.js"></script>
+<script src="/lib/weixin-share/weixin-trans.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'lideveloper';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+

@@ -32,7 +32,7 @@ $ nrm use taobao  # 将 registry 切换为 taobao
 $ npm install hexo-cli -g
 ```
 
-*说明：本文所有命令 Linux/Mac 在终端（terminal）输入，Windows 除后面的 SSH 那节在 Git Bash 输入外其余都在 CMD 输入。*
+*说明：本文所有命令 Linux/Mac 在终端（terminal）输入，Windows 在 CMD 输入。*
 
 ## 创建 Hexo 项目
 
@@ -317,7 +317,7 @@ $ git commit -m "提交说明" # 提交更新
 $ git push origin hexo # 推送到远程仓库 origin 的 hexo 分支
 ```
 
-需要注意的是本地博客文件夹根目录下的 `.gitignore` 是 Hexo 自带的文件，也要提交到仓库，里面列的是要被 Git 忽略的文件，这些文件不需要纳入 Git 的管理。这就意味着 Hexo 也希望我们将源文件提交到远程仓库来管理。
+需要注意的是本地博客文件夹根目录下的 `.gitignore` 是 Hexo 自带的文件，也要提交到仓库，里面列的是要被 Git 忽略的文件，这些文件不需要纳入 Git 的管理。
 
 这样就把本地博客项目提交到你的 Github 中 `lihthub.github.io` 仓库的 `hexo` 分支上了。然后将仓库的默认分支设置为 hexo，因为 hexo 分支需要手动管理。
 

@@ -1,4 +1,12 @@
 <div id="archive">
+  <div class="archive-tags">
+    <span class="archive-tag"><i class="fa fa-tag"></i> <a href="<%- url_for("/tags/personal-diary/") %>">个人日记</a></span>
+    <span class="archive-tag"><i class="fa fa-tag"></i> <a href="<%- url_for("/tags/developer-manual/") %>">开发者手册</a></span>
+    <span class="archive-tag"><i class="fa fa-tag"></i> <a href="<%- url_for("/tags/guitar/") %>">吉他</a></span>
+    <span class="archive-tag"><i class="fa fa-tag"></i> <a href="<%- url_for("/tags/opinions-and-feelings/") %>">观点与感想</a></span>
+    <span class="archive-tag"><i class="fa fa-tag"></i> <a href="<%- url_for("/tags/life-essay/") %>">生活随笔</a></span>
+  </div>
+
   <ul class="post-list">
     <% var year = 0 %>
     <% var change = false %>

@@ -1,8 +1,8 @@
 ---
 title: jQuery 插件开发
 author: 李海涛
-tags: jQuery
 date: 2017-09-26 00:27:34
+tags: [ 开发者手册, jQuery ]
 ---
 
 > 本文转载自互联网

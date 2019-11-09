@@ -6,7 +6,7 @@
 title: 李海涛
 subtitle:
 description: 嗨，你好，我叫李海涛，90后，是一名Web软件开发者，这是我的个人博客，这里包括一些技术分享，也记录了我生活的点滴。
-keywords: 李海涛,开发者李海涛,李海涛博客
+keywords: 李海涛,开发者李海涛,李海涛的博客,像风一样,Li Haitao
 author: 李海涛
 language: en
 timezone:
@@ -57,6 +57,12 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+  个人日记: personal-diary
+  开发者手册: developer-manual
+  吉他: guitar
+  观点与感想: opinions-and-feelings
+  生活随笔: life-essay
+  心理学: psychology
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

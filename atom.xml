@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lihthub.github.io/"/>
-  <updated>2019-08-25T07:23:53.574Z</updated>
+  <updated>2019-11-09T05:48:57.317Z</updated>
   <id>https://lihthub.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>留在南京</title>
+    <link href="https://lihthub.github.io/2019/08/18/stay-in-nanjing/"/>
+    <id>https://lihthub.github.io/2019/08/18/stay-in-nanjing/</id>
+    <published>2019-08-18T09:07:03.000Z</published>
+    <updated>2019-11-09T05:48:57.317Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天忽然发现我的刷牙杯子居然用了八年之久了，是我刚去南昌上学的时候买的，跟着我，从南昌到北京，吕梁，最后来到了南京……这个杯子虽然见证了我这八年的生活历程，但用了这么久了，也该换一换了，不能太寒酸了，此时不换，更待何时！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2019/08/
+      
+    
+    </summary>
+    
+    
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/personal-diary/"/>
+    
+      <category term="南京" scheme="https://lihthub.github.io/tags/%E5%8D%97%E4%BA%AC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我的第一次技术分享会</title>
     <link href="https://lihthub.github.io/2019/08/15/my-first-technology-sharing/"/>
     <id>https://lihthub.github.io/2019/08/15/my-first-technology-sharing/</id>
     <published>2019-08-15T12:00:00.000Z</published>
-    <updated>2019-08-25T07:23:53.574Z</updated>
+    <updated>2019-11-09T03:56:43.250Z</updated>
     
     <summary type="html">
     
@@ -33,7 +57,7 @@
     </summary>
     
     
-      <category term="个人日记" scheme="https://lihthub.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/personal-diary/"/>
     
       <category term="语言表达" scheme="https://lihthub.github.io/tags/%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE/"/>
     
@@ -44,7 +68,7 @@
     <link href="https://lihthub.github.io/2019/05/07/primary-school-in-my-hometown/"/>
     <id>https://lihthub.github.io/2019/05/07/primary-school-in-my-hometown/</id>
     <published>2019-05-07T12:00:00.000Z</published>
-    <updated>2019-08-25T07:11:23.853Z</updated>
+    <updated>2019-11-09T03:56:36.314Z</updated>
     
     <summary type="html">
     
@@ -58,7 +82,7 @@
     </summary>
     
     
-      <category term="个人日记" scheme="https://lihthub.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/personal-diary/"/>
     
   </entry>
   
@@ -67,7 +91,7 @@
     <link href="https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/"/>
     <id>https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/</id>
     <published>2019-01-26T11:44:16.000Z</published>
-    <updated>2019-08-24T17:24:24.255Z</updated>
+    <updated>2019-11-09T03:56:59.125Z</updated>
     
     <summary type="html">
     
@@ -81,7 +105,7 @@
     </summary>
     
     
-      <category term="个人日记" scheme="https://lihthub.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+      <category term="个人日记" scheme="https://lihthub.github.io/tags/personal-diary/"/>
     
   </entry>
   
@@ -90,7 +114,7 @@
     <link href="https://lihthub.github.io/2017/09/26/jquery-plugin-development/"/>
     <id>https://lihthub.github.io/2017/09/26/jquery-plugin-development/</id>
     <published>2017-09-25T16:27:34.000Z</published>
-    <updated>2019-08-24T08:22:25.671Z</updated>
+    <updated>2019-11-09T04:05:38.708Z</updated>
     
     <summary type="html">
     
@@ -105,6 +129,8 @@
     </summary>
     
     
+      <category term="开发者手册" scheme="https://lihthub.github.io/tags/developer-manual/"/>
+    
       <category term="jQuery" scheme="https://lihthub.github.io/tags/jQuery/"/>
     
   </entry>
@@ -114,7 +140,7 @@
     <link href="https://lihthub.github.io/2017/09/19/blogging-with-hexo/"/>
     <id>https://lihthub.github.io/2017/09/19/blogging-with-hexo/</id>
     <published>2017-09-19T10:48:03.000Z</published>
-    <updated>2019-08-18T08:36:36.812Z</updated>
+    <updated>2019-11-09T04:05:00.539Z</updated>
     
     <summary type="html">
     
@@ -125,6 +151,8 @@
     
     </summary>
     
+    
+      <category term="开发者手册" scheme="https://lihthub.github.io/tags/developer-manual/"/>
     
       <category term="Hexo" scheme="https://lihthub.github.io/tags/Hexo/"/>
     

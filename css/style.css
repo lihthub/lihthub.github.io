@@ -1172,6 +1172,12 @@ article .content .caption {
     content: "|";
   }
 }
+#archive .archive-tags {
+  padding: 0;
+}
+#archive .archive-tags .archive-tag {
+  margin-right: 16px;
+}
 #archive .post-list {
   padding: 0;
 }

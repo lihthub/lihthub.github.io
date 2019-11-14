@@ -290,9 +290,7 @@ $ hexo deploy --generate # 生成静态文件并发布到 Github
 
 ## 源文件管理
 
-如果要用另一台电脑写博客怎么办呢，每次用U盘拷贝本地项目实在太麻烦了，而且万一电脑挂了没有及时备份源文件那就前功尽弃了。
-
-这里介绍一种方法就是使用 Github 分支，创建两个分支，一个分支用来放博客的原始文件，另一个分支用来放生成的静态文件。
+如果要用另一台电脑写博客怎么办呢，这里介绍一种方法就是使用 Git 分支，创建两个分支，一个分支用来放博客的原始文件，另一个分支用来放生成的静态文件。
 
 ### 提交源文件到分支
 
@@ -309,17 +307,17 @@ deploy:
 
 ``` bash
 $ git init # 初始化 Git 项目
-$ git checkout -b hexo # 新建并切换到 hexo 分支
+$ git checkout -b develop # 新建并切换到 develop 分支
 # 添加远程仓库 origin ，后面是你在 Github 上创建的 repository 的 url
 $ git remote add origin git@github.com:lihthub/lihthub.github.io.git
 $ git add . # 将当前目录的所有文件加入暂存区
 $ git commit -m "提交说明" # 提交更新
-$ git push origin hexo # 推送到远程仓库 origin 的 hexo 分支
+$ git push origin develop # 推送到远程仓库 origin 的 develop 分支
 ```
 
 需要注意的是本地博客文件夹根目录下的 `.gitignore` 是 Hexo 自带的文件，也要提交到仓库，里面列的是要被 Git 忽略的文件，这些文件不需要纳入 Git 的管理。
 
-这样就把本地博客项目提交到你的 Github 中 `lihthub.github.io` 仓库的 `hexo` 分支上了。然后将仓库的默认分支设置为 hexo，因为 hexo 分支需要手动管理。
+这样就把本地博客项目提交到你的 Github 中 `lihthub.github.io` 仓库的 `develop` 分支上了。然后将仓库的默认分支设置为 develop，因为 develop 分支需要手动管理。
 
 在 Github 中打开 `lihthub.github.io` 仓库的主页面，点击上面的 2 branches:
 
@@ -329,7 +327,7 @@ $ git push origin hexo # 推送到远程仓库 origin 的 hexo 分支
 
 ![lihthub.github.io](change-default-branch.png)
 
-然后按下图所示依次点击将 Default branch 设为 `hexo`:
+然后按下图所示依次点击将 Default branch 设为 `develop`:
 
 ![lihthub.github.io](switch-default-branch.png)
 
@@ -339,7 +337,7 @@ $ git push origin hexo # 推送到远程仓库 origin 的 hexo 分支
 $ git status # 检查文件状态
 $ git add . # 将当前目录的所有更新加入暂存区
 $ git commit -m "提交说明" # 提交更新
-$ git push origin hexo # 推送到远程仓库 origin 的 hexo 分支
+$ git push origin develop # 推送到远程仓库 origin 的 develop 分支
 ```
 
 ### 换台电脑写博客
@@ -350,7 +348,7 @@ $ git push origin hexo # 推送到远程仓库 origin 的 hexo 分支
 $ git clone git@github.com:lihthub/lihthub.github.io.git
 ```
 
-输入 `git branch` 确认一下当前分支是否为 hexo 。然后安装 Node.js 和 Git 。接着执行以下命令安装 Hexo：
+输入 `git branch` 确认一下当前分支是否为 develop 。然后安装 Node.js 和 Git 。接着执行以下命令安装 Hexo：
 
 ``` bash
 $ npm install hexo-cli -g

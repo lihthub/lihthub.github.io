@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/</loc>
+    
+    <lastmod>2020-07-08T15:40:23.144Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lihthub.github.io/2017/09/19/blogging-with-hexo/</loc>
     
-    <lastmod>2019-11-14T14:19:03.464Z</lastmod>
+    <lastmod>2019-11-17T09:06:38.128Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>https://lihthub.github.io/2017/09/26/jquery-plugin-development/</loc>
     
     <lastmod>2019-11-09T04:05:38.708Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/</loc>
-    
-    <lastmod>2019-11-09T03:56:59.125Z</lastmod>
     
   </url>
   

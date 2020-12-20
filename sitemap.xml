@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lihthub.github.io/about/index.html</loc>
+    
+    <lastmod>2020-12-20T03:41:03.169Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lihthub.github.io/2019/01/26/my-cat-in-my-hometown/</loc>
     
     <lastmod>2020-12-20T03:27:01.655Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://lihthub.github.io/2019/05/07/primary-school-in-my-hometown/</loc>
     
     <lastmod>2019-11-09T03:56:36.314Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lihthub.github.io/about/index.html</loc>
-    
-    <lastmod>2019-08-04T14:52:57.924Z</lastmod>
     
   </url>
   

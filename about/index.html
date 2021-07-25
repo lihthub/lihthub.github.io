@@ -106,7 +106,7 @@
     
     <footer id="footer">
   <div class="footer-left">
-    Copyright &copy; 2020 李海涛
+    Copyright &copy; 2021 李海涛
   </div>
   <div class="footer-right">
     <nav>
@@ -135,6 +135,7 @@
 <link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
 <link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
 <link rel="stylesheet" href="/lib/weixin-share/weixin-popup.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
 <!-- jquery -->
 <script src="/lib/jquery/jquery.min.js"></script>
@@ -142,23 +143,32 @@
 <script src="/lib/weixin-share/jquery.qrcode.min.js"></script>
 <script src="/lib/weixin-share/weixin-trans.js"></script>
 <script src="/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <!-- search -->
 
 <!-- Google Analytics -->
 
 <!-- Baidu Analytics -->
 
-<!-- Disqus Comments -->
+<!-- Gitalk Comments -->
 
     <script type="text/javascript">
-        var disqus_shortname = 'lideveloper';
-
         (function(){
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            var clientID = "eaef31085ad16558a923";
+            var clientSecret = "9be5e1cab55cdbf595240c5d5ebf2fd81e96f539";
+            var repo = "lihthub.github.io";
+            var owner = "lihthub";
+            var admin = "lihthub";
+            var id = "关于我";
+            var gitalk = new Gitalk({
+              clientID: clientID,
+              clientSecret: clientSecret,
+              repo: repo,
+              owner: owner,
+              admin: [admin],
+              id: id
+            });
+            gitalk.render('gitalk-container');
         }());
     </script>
 

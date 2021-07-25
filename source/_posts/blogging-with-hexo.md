@@ -86,11 +86,13 @@ theme: cactus-dark # 主题文件夹的名称
 
 ### 评论
 
-Hexo 默认支持 [DISQUS](http://disqus.com/) 的评论功能，只要在 [disqus.com](http://disqus.com) 注册获得 Disqus Comments Shortname，然后在 `_config.yml` 里配置：
+~~Hexo 默认支持 [DISQUS](http://disqus.com/) 的评论功能，只要在 [disqus.com](http://disqus.com) 注册获得 Disqus Comments Shortname，然后在 `_config.yml` 里配置：~~
 
 ``` yaml
 disqus_shortname: your shortname # Disqus Comments Shortname
 ```
+
+**以上插件已不建议使用，推荐使用 [Gitalk](https://gitalk.github.io/) 2021/07/25**
 
 ### 图片
 

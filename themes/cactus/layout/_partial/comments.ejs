@@ -1,7 +1,7 @@
-<% if(page.comments && theme.disqus.enabled){ %>
+<% if(page.comments && theme.gitalk.enabled){ %>
     <div class="blog-post-comments">
-        <div id="disqus_thread">
-            <noscript><%= __('comments.no_js') %></noscript>
+        <div id="gitalk-container">
+            <noscript>Gitalk 评论插件加载异常</noscript>
         </div>
     </div>
 <% } %>

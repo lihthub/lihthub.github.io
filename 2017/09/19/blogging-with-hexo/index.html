@@ -19,7 +19,7 @@
 <meta property="og:image" content="https://lihthub.github.io/2017/09/19/blogging-with-hexo/lihthub.github.io.png">
 <meta property="og:image" content="https://lihthub.github.io/2017/09/19/blogging-with-hexo/change-default-branch.png">
 <meta property="og:image" content="https://lihthub.github.io/2017/09/19/blogging-with-hexo/switch-default-branch.png">
-<meta property="og:updated_time" content="2019-11-17T09:06:38.128Z">
+<meta property="og:updated_time" content="2021-07-25T11:57:47.775Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Hexo 搭建个人博客">
 <meta name="twitter:description" content="一直想开个博客写几篇技术文章，因为写博客不仅能让自己更深入地理解某项技术，而且可以总结归纳一些我学到的知识点分享给别人，但总是犹豫在什么地方写博客，因为现在有很多比如 CSDN、博客园、简书等博客平台，很难选择，也都不是我喜欢的类型。后来看到我关注的一些大牛都自行搭建了个人博客，所以就选了这种形式。因为自建博客权限比较高，可控性也高，博客的样式、布局都可以由自己来设定，最重要的是搭建过程包括发文章">
@@ -172,8 +172,9 @@
 <p>在 Github 下载主题文件，将文件整个目录 <code>cactus-dark</code> 复制到本地项目的 <code>themes</code> 目录下，然后修改配置文件 <code>_config.yml</code>：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">cactus-dark</span> <span class="comment"># 主题文件夹的名称</span></span><br></pre></td></tr></table></figure>
 <p>主题相关的配置在 <code>themes/cactus-dark/_config.yml</code> 里面，可以设置链接、添加菜单等，根据自己的需要配置。</p>
-<h2 id="Hexo-插件"><a href="#Hexo-插件" class="headerlink" title="Hexo 插件"></a>Hexo 插件</h2><h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h3><p>Hexo 默认支持 <a href="http://disqus.com/" target="_blank" rel="noopener">DISQUS</a> 的评论功能，只要在 <a href="http://disqus.com" target="_blank" rel="noopener">disqus.com</a> 注册获得 Disqus Comments Shortname，然后在 <code>_config.yml</code> 里配置：</p>
+<h2 id="Hexo-插件"><a href="#Hexo-插件" class="headerlink" title="Hexo 插件"></a>Hexo 插件</h2><h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h3><p><del>Hexo 默认支持 <a href="http://disqus.com/" target="_blank" rel="noopener">DISQUS</a> 的评论功能，只要在 <a href="http://disqus.com" target="_blank" rel="noopener">disqus.com</a> 注册获得 Disqus Comments Shortname，然后在 <code>_config.yml</code> 里配置：</del></p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">disqus_shortname:</span> <span class="string">your</span> <span class="string">shortname</span> <span class="comment"># Disqus Comments Shortname</span></span><br></pre></td></tr></table></figure>
+<p><strong>以上插件已不建议使用，推荐使用 <a href="https://gitalk.github.io/" target="_blank" rel="noopener">Gitalk</a> 2021/07/25</strong></p>
 <h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">hexo-asset-image</a> 能帮助你更好地管理博客中所用到的图片，每篇博文都会生成一个单独的资源文件夹，而不是混在一起。安装命令是：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
 <p>并且需要在 <code>_config.yml</code> 里设置 <code>post_asset_folder: true</code>。</p>

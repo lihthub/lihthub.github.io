@@ -8,5 +8,15 @@
       "name":"Resume",
       "url":"https://lihthub.github.io/resume/",
       "desc":"我的个人简历，一个简单的求职简历模版"
+    },
+    {
+      "name":"Text Formatter",
+      "url":"https://lihthub.github.io/text-formatter/",
+      "desc":"在线文本格式化工具，支持 JSON XML Java SQL URL MD5 Base64 等"
+    },
+    {
+      "name":"Web Watermark",
+      "url":"https://github.com/lihthub/web-watermark",
+      "desc":"Web 网页水印插件，用 HTML/CSS JavaScript 实现"
     }
 ]
